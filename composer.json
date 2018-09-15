@@ -1,0 +1,25 @@
+{
+  "name": "Test1",
+  "authors": [
+    {
+      "name": "Vasiliy",
+      "email": "vasyansennicov@mail.ru"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "main\\": "main/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/DataTest.php"
+    ]
+  }
+}
